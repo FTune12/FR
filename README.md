@@ -913,7 +913,7 @@ wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/linux-opti
 
 
 ```
-apt install python3 -y && apt install wget -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP_Reverse_Loadbalance/main/loadbalance.py --ipv4)
+apt install python3 -y && apt install wget -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/FTune12/FR/main/loadbalance.py --ipv4)
 ```
 
 - اگر با دستور بالا نتوانستید اسکریپت را اجرا کنید، نخست دستور زیر را اجرا نمایید و سپس دستور اول را دوباره اجرا کنید.
@@ -927,13 +927,13 @@ sudo apt-get install python-pip -y  &&  apt-get install python3 -y && alias pyth
  <div dir="rtl">&bull;  دستور زیر برای کسانی هست که پیش نیاز ها را در سرور، نصب شده دارند</div>
  
 ```
-python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/FRP_Reverse_Loadbalance/main/loadbalance.py --ipv4)
+python3 <(curl -Ls https://raw.githubusercontent.com/FTune12/FR/main/loadbalance.py --ipv4)
 ```
 --------------------------------------
  <div dir="rtl">&bull; اگر سرور شما خطای externally-managed-environment داد از دستور زیر اقدام به اجرای اسکریپت نمایید.</div>
  
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/Azumi67/V2ray_loadbalance_multipleServers/main/managed2.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/FTune12/FR/main/managed2.sh)
 ```
 
 ---------------------------------
